@@ -285,17 +285,12 @@ body {
 
   /* Contact Form */
 
-  footer {
-    padding-top: 114px;
-  }
-
   #contact-form {
     background-image: url(/images/contact-form.png);
     background-repeat: no-repeat;
     background-size: 100%;
     background-color: #6070ff;
     border-top-left-radius: 100px;
-    
   }
 
   #contact-form h1 {
@@ -313,60 +308,62 @@ body {
     font-weight: 400;
     line-height: 28px;
     margin: 12px 24px;
-}
+  }
 
-.form-container {
-  display: flex;
-  flex-direction: column;
-  padding: 12px 24px;
-  gap: 20px;
-}
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    padding: 12px 24px;
+    gap: 20px;
+  }
 
-.form-container input[type=text] , .form-container input[type=email]{
-  border: 1px solid #cfd8dc;
-  border-radius: 8px;
-  font-weight: 400;
-  font-size: 17px;
-  line-height: 20px;
-  color: #172b4d;
-  padding: 15px 38px 15px 16px;
-  height: 48px;
-}
+  .form-container input[type=text],
+  .form-container input[type=email] {
+    border: 1px solid #cfd8dc;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    color: #172b4d;
+    padding: 15px 38px 15px 16px;
+    height: 48px;
+  }
 
-.form-container textarea{
-  padding: 15px 38px 15px 16px;
-  border: 1px solid #cfd8dc;
-  border-radius: 8px;
-  height: 170px;
-  resize: none;
-}
+  .form-container textarea {
+    padding: 15px 38px 15px 16px;
+    border: 1px solid #cfd8dc;
+    border-radius: 8px;
+    height: 170px;
+    resize: none;
+  }
 
-/* Button implementation */
-.btn {
-  padding: 12px;
-  color: #7f8cff;
-  background: #fff;
-  border: 1px solid #7f8cff;
-  border-radius: 8px;
-}
+  /* Button implementation */
+  .bn {
+    padding: 12px;
+    color: #7f8cff;
+    background: #fff;
+    border: 1px solid #7f8cff;
+    border-radius: 8px;
+  }
 
-.btn:hover {
-  background: #6070ff;
-  box-shadow: 1px 8px 16px rgba(64, 83, 252, 0.24);
-}
+  .btn:hover {
+    background: #6070ff;
+    box-shadow: 1px 8px 16px rgba(64, 83, 252, 0.24);
+  }
 
-.btn:focus {
-  background: #2230d2;
-}
+  .btn:focus {
+    background: #2230d2;
+  }
 
-.btn:disabled {
-  border: 1px solid #c1c7d0;
-  border-radius: 8px;
-  color: #5e6c84;
-}
+  .btn:disabled {
+    border: 1px solid #c1c7d0;
+    border-radius: 8px;
+    color: #5e6c84;
+  }
 
-footer{
-  background-color: #fff;
-  width: 100%;
-}
+  footer {
+    background-color: #fff;
+    width: 100%;
+    padding-top: 114px;
+  }
 }
